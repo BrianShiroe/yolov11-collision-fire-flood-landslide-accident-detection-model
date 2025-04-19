@@ -1,0 +1,5 @@
+collision
+fire
+smoke
+flood
+landslide
