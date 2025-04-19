@@ -2,7 +2,7 @@
 from ultralytics import YOLO
 
 # model path / use last.pt model when resuming from previous training
-model_path = "runs/detect/train/weights/last.pt"
+model_path = "model/yolo11n.pt"
 
 # Load the pre-trained YOLO model
 model = YOLO(model_path)
@@ -17,7 +17,7 @@ if __name__ == "__main__":
         workers=8,  # Data loading workers
         device='0',  # GPU (0) or CPU (1)
         amp=False, # Disable Automatic Mixed Precision to prevent NaNs on GTX 1650
-        resume=True  # Resume from last checkpoint
+        # resume=False  # Resume from last checkpoint
     )
 
     # Evaluate the model's performance on the validation set
