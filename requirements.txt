@@ -1,6 +1,5 @@
 torch>=2.0.0
 torchvision>=0.15.0
-git+https://github.com/ultralytics/ultralytics.git@main
 opencv-python>=4.8.0
 Pillow
 matplotlib
