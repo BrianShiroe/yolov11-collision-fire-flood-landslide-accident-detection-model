@@ -56,3 +56,11 @@ Yolo Model Metrics
 | **Smoke**     | 58%       | 34%    | 43%    | 18%       |
 | **Flood**     | 83%       | 64%    | 69%    | 57%       |
 | **Landslide** | 29%       | 36%    | 24%    | 14%       |
+
+## 🎥 Detection Demo
+<p align="center">
+   <img src="gif/1-collision-demo.gif" width="49%"/>
+   <img src="gif/2-flood-demo.gif" width="49%"/><br><br>
+   <img src="gif/3-fire-demo.gif" width="49%"/>
+   <img src="gif/4-landslide-demo.gif" width="49%"/><br><br>
+</p>
